@@ -1,0 +1,20 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+
+# --- Virtual env ---
+.venv/
+env/
+venv/
+
+# --- OS-specific ---
+.DS_Store
+Thumbs.db
+
+# --- Credentials ---
+.env
+*.cache
+config/config.yaml  # if it contains secrets
